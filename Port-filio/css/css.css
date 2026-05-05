@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text h3 {
+    color: #38bdf8;
+}
+
+.hero-text button {
+    margin: 10px 10px 0 0;
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-images img {
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    margin-left: 10px;
+    border: 3px solid #38bdf8;
+}
+
+/* NAV */
+nav {
+    text-align: center;
+    margin: 20px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+}
+
+/* SECTION */
+.section {
+    display: none;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* SKILL BAR */
+.skill {
+    margin-bottom: 15px;
+}
+
+.bar {
+    width: 100%;
+    background: #334155;
+    border-radius: 10px;
+}
+
+.bar div {
+    height: 10px;
+    background: #38bdf8;
+}
+
+/* CONTACT */
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* GRID LAYOUT */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* COMMON CARD STYLE */
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border: 2px solid #3b82f6;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+    background: rgba(15, 23, 42, 0.7);
+}
+
+/* HOVER EFFECT (DEFAULT) */
+.contact-card:hover {
+    transform: translateY(-5px);
+    background: #3b82f6;
+    box-shadow: 0 8px 20px rgba(59,130,246,0.4);
+}
+
+/* PLATFORM COLORS */
+.contact-card.fb:hover {
+    background: #1877F2;
+    border-color: #1877F2;
+}
+
+.contact-card.linkedin:hover {
+    background: #0A66C2;
+    border-color: #0A66C2;
+}
+
+.contact-card.whatsapp:hover {
+    background: #25D366;
+    border-color: #25D366;
+}
+
+.contact-card.mail:hover {
+    background: #EA4335;
+    border-color: #EA4335;
+}
+.btn-primary {
+    border-color: #d3d62c;
+}
+
+.btn-primary:hover {
+    background: #f6bb3b;
+    box-shadow: 0 8px 20px rgba(219, 202, 43, 0.5);
+}
+
+.btn-secondary {
+    border-color: #22c55e;
+}
+
+.btn-secondary:hover {
+    background: #22c55e;
+    box-shadow: 0 8px 20px rgba(34,197,94,0.5);
+}
+.nav-btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #3b82f6;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* Hover same as button */
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #3b82f6;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.nav-btn:hover {
+    background: #3b82f6;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(59,130,246,0.4);
+}

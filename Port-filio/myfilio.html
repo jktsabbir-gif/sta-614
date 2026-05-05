@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saifur Sabbir Portfolio</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+
+<!-- 🔥 HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Saifur Rahman Sabbir</h1>
+        <h3>Civil Engineering Student | DUET</h3>
+        <p style="text-align: justify;">
+            Passionate about Structural Engineering, Urban Development, and Technology.
+            Skilled in AutoCAD, Estimation, and Programming Automation.
+        </p>
+
+        <button class="btn-primary" onclick="showSection('about')">About Me</button>
+         <a href="CV.html" target="_blank" class="nav-btn">My CV</a> 
+<button class="btn-secondary" onclick="showSection('contact')">Contact Me</button>
+    </div>
+
+    <div class="hero-images">
+        <img src="IMG_20240907_000840.jpg">
+        <img src="01856609788 (1).jpg">
+    </div>
+</section>
+
+<!-- NAV -->
+<nav>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('education')">Education</button>
+    <button onclick="showSection('experience')">Experience</button>   
+</nav>
+
+<!-- ABOUT -->
+<div id="about" class="section">
+    <h2>About Me</h2>
+    <p style="text-align: justify;">
+        I am a Civil Engineering student at Dhaka University of Engineering &Technology (DUET), with a strong passion for Structural Engineering and sustainable urban development. I have completed my Diploma in Civil Engineering from Barishal Polytechnic Institute, which built a solid foundation in practical engineering knowledge and field-based applications. <br> <br>
+I am particularly interested in structural analysis and design, and I continuously work to enhance my technical expertise through software tools such as AutoCAD and ETABS. Alongside my core engineering skills, I have developed programming capabilities in C++, Python, and JavaScript, which I use for automation and productivity improvement. <br><br>
+I have also gained knowledge in construction quality control, estimation, and project planning, supported by courses on RCC quality control, earthquake-resistant design (BNBC 2020), and practical field applications. <br><br>
+
+Beyond academics, I actively engage in leadership and communication activities. I serve as the General Secretary of the DUET Debating Society and as an Office Secretary in the DUET Journalists Association, where I develop my public speaking, organizational, and analytical skills. <br><br>
+
+I am highly motivated, disciplined, and eager to contribute to innovative engineering solutions that address real-world infrastructure challenges, particularly in developing and rural areas. <br>
+    </p>
+</div>
+
+<!-- SKILLS -->
+<div id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skill"><p>AutoCAD - 85%</p><div class="bar"><div style="width:85%"></div></div></div>
+    <div class="skill"><p>ETABS - 60%</p><div class="bar"><div style="width:60%"></div></div></div>
+    <div class="skill"><p>Microsoft Project - 75%</p><div class="bar"><div style="width:75%"></div></div></div>
+    <div class="skill"><p>Estimation - 80%</p><div class="bar"><div style="width:80%"></div></div></div>
+    <div class="skill"><p>Python - 50%</p><div class="bar"><div style="width:50%"></div></div></div>
+    <div class="skill"><p>C++ - 70%</p><div class="bar"><div style="width:70%"></div></div></div>
+    <div class="skill"><p>JavaScript - 65%</p><div class="bar"><div style="width:65%"></div></div></div>
+    <div class="skill"><p>HTML - 55%</p><div class="bar"><div style="width:55%"></div></div></div>
+
+</div>
+
+<!-- EDUCATION -->
+<div id="education" class="section">
+    <h2>Education</h2>
+    <p><a href="https://www.duet.ac.bd/"><h3>DUET</h3></a> - BSc in Civil Engineering (Running)</p>
+    <p> <a href="https://www.facebook.com/bpibarishal"><h3>Barishal Polytechnic Institute </h3></a>- Diploma (2020)</p>
+    <p><a href="https://www.facebook.com/JhalakathiGovtHighSchool"><h3>Jhalokathi Govt High School </h3></a>- SSC (2016)</p>
+</div>
+
+<!-- EXPERIENCE -->
+<div id="experience" class="section">
+    <h2>Experience</h2>
+    <ul>
+        <li>General Secretary - <a href="https://www.facebook.com/dds.duet" target="_blank">DUET Debating Society</a></li>
+        <li>Office Secretary - <a href="https://www.facebook.com/duetja2019">DUET Journalist Association</a></li>
+        <li>Residence Director - <a href="https://www.facebook.com/cchedubd">Comfort Coaching Home</a></li>
+        <li>Campus Representative - News Portal</li>
+    </ul>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="section">
+    <h2>Contact</h2>
+
+    <div class="contact-grid">
+
+        <a href="https://facebook.com/" target="_blank" class="contact-card fb">
+            Facebook
+        </a>
+
+        <a href="https://linkedin.com/" target="_blank" class="contact-card linkedin">
+            LinkedIn
+        </a>
+
+        <a href="https://wa.me/8801856005670" target="_blank" class="contact-card whatsapp">
+            WhatsApp
+        </a>
+
+        <a href="mailto:mdfazlulhoquemunna@gmail.com" class="contact-card mail">
+            Mail Me
+        </a>
+
+    </div>
+</div>
+
+<!-- JS -->
+<script>
+function showSection(id) {
+    let sections = document.querySelectorAll('.section');
+    sections.forEach(sec => sec.style.display = 'none');
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+</body>
+</html>

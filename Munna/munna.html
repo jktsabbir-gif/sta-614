@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Md. Fazlul Hoque Portfolio</title>
+    <link rel="stylesheet" href="CSS/css.css">
+</head>
+<body>
+
+<section class="hero">
+
+    <div class="hero-container">
+
+        <!-- LEFT: IMAGE BOX -->
+        <div class="hero-image-box">
+            <img src="WhatsApp Image 2026-04-28 at 02.42.04.jpeg" alt="Profile Picture">
+        </div>
+
+        <!-- RIGHT: TEXT BOX -->
+        <div class="hero-text-box">
+            <h1>Md. Fazlul Hoque</h1>
+            <h3>Civil Engineering Student | DUET</h3>
+
+            <p>
+                Passionate about Water Resources Engineering & Flood Analysis.
+                Skilled in ETABS, Estimation, and Engineering Tools.
+            </p>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+<!-- NAV -->
+<nav>
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('skills')">Skills</button>
+    <button onclick="showSection('education')">Education</button>
+    <button onclick="showSection('experience')">Experience</button>
+    <button onclick="showSection('hobby')">Hobby</button>
+    <button onclick="showSection('contact')">Contact</button>
+</nav>
+
+<!-- ABOUT -->
+<div id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+       I am a dedicated and motivated Civil Engineering student currently in my 4th year at 
+Dhaka University of Engineering & Technology (DUET), Gazipur. I completed my Diploma in Civil 
+Technology in 2020 from Institute of Computer Science & Technology (ICST), Feni, where I built a 
+strong foundation in practical engineering concepts and field-based applications.
+
+My academic and research interests lie in Water Resources Engineering, with a particular focus on 
+Flood Susceptibility analysis. Through my ongoing thesis work, I am developing analytical and 
+problem-solving skills to address real-world environmental and infrastructural challenges.
+
+In addition to my academic background, I have gained hands-on experience through a 6-month 
+industrial attachment at Unique Planning Design, where I was exposed to real project environments, 
+planning processes, and practical engineering applications.
+
+I possess foundational skills in Python and HTML, along with practical knowledge of engineering tools 
+such as ETABS and Microsoft Office. I am also familiar with project management concepts (PMP), which 
+enhances my ability to work in structured and goal-oriented environments.
+
+Beyond technical expertise, I am actively engaged in leadership and organizational activities. I have 
+served as a Residential Director at Orbit Coaching Home and as Finance Secretary of the DUET Sports Club, 
+which helped me develop strong communication, leadership, and management skills. I am also an active 
+member of the American Society of Civil Engineers (ASCE), DUET Chapter.
+
+I am highly enthusiastic about continuous learning, professional development, and contributing to 
+innovative engineering solutions—particularly in the areas of sustainable development and water resource 
+management.
+    </p>
+</div>
+
+<!-- SKILLS -->
+<div id="skills" class="section">
+    <h2>Skills</h2>
+
+    <div class="skill"><p>Python - 50%</p><div class="bar"><div style="width:50%"></div></div></div>
+    <div class="skill"><p>HTML - 55%</p><div class="bar"><div style="width:55%"></div></div></div>
+    <div class="skill"><p>ETABS - 80%</p><div class="bar"><div style="width:80%"></div></div></div>
+    <div class="skill"><p>PMP - 90%</p><div class="bar"><div style="width:90%"></div></div></div>
+    <div class="skill"><p>MS Office - 85%</p><div class="bar"><div style="width:85%"></div></div></div>
+
+</div>
+
+<!-- EDUCATION -->
+<div id="education" class="section">
+    <h2>Education</h2>
+
+    <p><strong><a href="https://www.duet.ac.bd/"><h3>DUET, Gazipur</h3></a></strong>BSc in Civil Engineering (4th Year)</p> <br>
+    <p><strong><a href="https://www.duet.ac.bd/"><h3>ICST, Feni</h3></a></strong> <br>Diploma in Civil Technology (2020)</p><br>
+    <p><h3>Amuvhuiyarhat Hasania Dakhil Madrasha</h3>Dakhil-2015</p>
+
+</div>
+
+<!-- EXPERIENCE -->
+<div id="experience" class="section">
+    <h2>Experience</h2>
+
+    <ul>
+        <li>Industrial Attachment - Unique Planning Design (6 Months)</li> <br>
+        <li>Residential Director - Orbit Coaching Home</li><br>
+        <li>Finance Secretary - DUET Sports Club</li><br>
+        <li>Active Member - ASCE DUET</li><br>
+    </ul>
+
+</div>
+
+<!-- HOBBY -->
+<div id="hobby" class="section">
+    <h2>Hobbies</h2>
+
+    <ul>
+        <li>Tree Planting </li>
+        <li>Fishing </li>
+        <li>Traveling </li>
+        <li>Reading </li>
+        <li>Gaming </li>
+    </ul>
+
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="section">
+    <h2>Contact</h2>
+
+    <div class="contact-buttons">
+    <a href="mailto:mdfazlulhoquemunna@gmail.com" class="contact-btn">
+        📧 Mail Me
+    </a>
+
+    <a href="https://wa.me/8801856005670" target="_blank" class="contact-btn whatsapp">
+        📱 WhatsApp Me
+    </a>
+</div>
+</div>
+
+<!-- JS -->
+<script>
+function showSection(id) {
+    let sections = document.querySelectorAll('.section');
+    sections.forEach(sec => sec.style.display = 'none');
+    document.getElementById(id).style.display = 'block';
+}
+</script>
+
+</body>
+</html>

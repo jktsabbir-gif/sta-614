@@ -1,0 +1,49 @@
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.btn-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* COMMON BUTTON */
+.btn {
+    display: inline-block;
+    padding: 18px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* SAIFUR BUTTON */
+.saifur {
+    background: linear-gradient(45deg, #3b82f6, #06b6d4);
+}
+
+/* MUNNA BUTTON */
+.munna {
+    background: linear-gradient(45deg, #22c55e, #facc15);
+}
+
+/* HOVER EFFECT */
+.btn:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+}
+
+/* CLICK EFFECT */
+.btn:active {
+    transform: scale(0.95);
+}
